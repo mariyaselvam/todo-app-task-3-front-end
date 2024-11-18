@@ -1,0 +1,30 @@
+@media (max-width:1500px) {
+    .board-view-and-add-view > *{
+        flex-basis: 90%;
+        margin: 0rem auto;
+    }
+    
+}
+
+
+@media (max-width:1000px) {
+    .page-warp{
+        grid-template-columns: auto auto auto;
+    }
+    .sidebar-big-one-sec{
+        display: none;
+    }
+    .to-do-listing-card-sec{
+        width: 100%;
+    }
+    
+}
+
+@media (max-width:500px) {
+    .todo-side-bar{
+        width: 50px;
+    }
+    .main-header-container{
+        padding: 20px 20px;
+    }
+}
